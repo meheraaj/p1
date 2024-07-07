@@ -1,0 +1,38 @@
+.n__header {
+  padding: 0 20rem;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px rgba(255, 255, 255, 0.123) solid;
+}
+
+.n__left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.n__logo {
+  width: 3rem;
+}
+.n__middle ul {
+  gap: 10px;
+}
+.n__list {
+  list-style: none;
+  gap: 5px;
+}
+
+.n__navbtn {
+  color: #ffffff;
+  font-size: 0.7rem;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.n__navbtn:hover {
+  cursor: pointer;
+  padding-bottom: 15px;
+  border-bottom: 2px solid;
+  border-color: #ff7c00;
+  color: #ffffff;
+}

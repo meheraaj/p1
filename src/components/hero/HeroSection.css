@@ -1,0 +1,74 @@
+.herosection {
+  align-items: center;
+  height: 90vh;
+  justify-content: space-evenly;
+}
+
+.hero__left {
+  margin-left: 8rem;
+}
+.hero__t-box {
+  font-size: 3.1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__p-box {
+  width: 20rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.pbox__left {
+  width: 12rem;
+  height: 0.2rem;
+  background-color: #ff5e69;
+}
+
+.pbox__right {
+  font-weight: 200;
+}
+
+.hero__aboutme {
+  font-size: 0.8rem;
+  overflow: hidden;
+}
+
+.hero__btn-box {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.hero__left-title {
+  color: #ff5e69;
+}
+.hero__right-title {
+  color: #ff8a56;
+}
+.hero__right {
+  overflow: hidden;
+  gap: 0;
+}
+.hero__right img {
+  width: 100%;
+  border-radius: 20px;
+  border-bottom: 1px #99cc0d solid;
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (max-width: 700px) {
+  .herosection {
+    flex-direction: column !important;
+    width: 100% !important;
+    justify-content: center;
+  }
+  .hero__left,
+  .hero__right {
+    margin: 0 auto; /* Add this line */
+    width: 100% !important; /* Keep this line */
+  }
+}
