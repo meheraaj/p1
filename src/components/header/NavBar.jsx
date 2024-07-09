@@ -15,27 +15,27 @@ const NavBar = () => {
         <div className="n__middle">
           <ul className="flexBox">
             <li className="n__list">
-              <Link to="/p1/" className="n__navbtn">
+              <Link to="/" className="n__navbtn">
                 Home
               </Link>
             </li>
             <li className="n__list">
-              <Link to="/p1/about" className="n__navbtn">
+              <Link to="/about" className="n__navbtn">
                 About
               </Link>
             </li>
             <li className="n__list">
-              <Link to="/p1/price" className="n__navbtn">
+              <Link to="/price" className="n__navbtn">
                 Pricing
               </Link>
             </li>
             <li className="n__list">
-              <Link to="/p1/portfolio" className="n__navbtn">
+              <Link to="/portfolio" className="n__navbtn">
                 Portfolio
               </Link>
             </li>
             <li className="n__list">
-              <Link to="/p1/blog" className="n__navbtn">
+              <Link to="/blog" className="n__navbtn">
                 Blog
               </Link>
             </li>
