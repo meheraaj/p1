@@ -26,7 +26,7 @@ const router = createBrowserRouter([
         element: <Pricing />,
       },
       {
-        path: "/p1/*",
+        path: "*",
         element: <NotFound />,
       },
     ],
