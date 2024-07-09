@@ -40,6 +40,10 @@ h1 {
   line-height: 1.1;
 }
 
+.title {
+  color: #ff8a56;
+  font-weight: 450;
+}
 button {
   border-radius: 5px;
   padding: 0.6em 1.2em;
@@ -83,13 +87,15 @@ button:focus-visible {
   font-size: 0.9rem;
 }
 .hero__btn-left {
-  background-color: #ff5e69;
+  background-color: #6f1d80;
   color: #ffffff;
-  border: 1px solid #ff5e6900;
+  font-weight: 200;
+  font-size: 0.9rem;
+  border: 1px solid #07000100;
 }
 .hero__btn-right,
 .hero__btn-left:hover {
   background-color: #ffffff00;
   color: #ffffff;
-  border: 1px solid #ff5e69;
+  border: 1px solid #2201b8;
 }

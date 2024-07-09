@@ -1,0 +1,31 @@
+.notfound {
+  height: 90vh !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  animation: fontChange 3s infinite;
+  animation-timing-function: cubic-bezier(0.42, 0, 1, 1);
+}
+
+@keyframes fontChange {
+  from {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 8rem;
+  }
+  to {
+    font-family: "Handjet", sans-serif;
+    font-size: 12rem;
+  }
+}
+.textTop {
+  color: #ff5e69;
+}
+
+.textBottom {
+  color: #ff8a56;
+}

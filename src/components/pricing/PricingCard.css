@@ -1,0 +1,91 @@
+.pricing__card {
+  padding: 15px 0 15px 20px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border-top: 2px solid #ff5e69;
+  border-right: 2px solid #2300be;
+  border-left: 2px solid #ff5e69;
+  border-bottom: 2px solid #2300be;
+}
+
+.pricing__card:hover {
+  border-bottom: 2px solid #ff5e69;
+  border-left: 2px solid #2300be;
+  border-right: 2px solid #ff5e69;
+  border-top: 2px solid #2300be;
+}
+
+.pricing__card:hover button {
+  background-color: #ff5e69a6;
+}
+
+.planname {
+  border-top: 1px solid #ff5e69;
+  border-right: 1px solid #2300be;
+  border-left: 1px solid #ff5e69;
+  border-bottom: 1px solid #2300be;
+  padding: 10px 20px;
+  border-radius: 991px;
+}
+.planname__text {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.discount {
+  align-self: flex-start;
+  font-size: 0.8rem;
+}
+
+.priceBox {
+  align-items: last baseline;
+  font-weight: 550;
+  align-self: flex-start;
+}
+.priceBox__price {
+  color: #ff5e69;
+  font-size: 2.2rem;
+}
+
+.priceBox__length {
+  font-weight: 200 !important;
+}
+
+.featuresbox {
+  align-self: flex-start;
+}
+.featuresbox .f__ul {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  gap: 7px;
+  padding: 0;
+  margin: 0;
+}
+
+.featuresbox .f__ul .f__li {
+  list-style: none;
+  align-self: flex-start;
+}
+
+.f__text {
+  font-weight: 200;
+}
+
+.f__textDisable {
+  color: rgba(255, 255, 255, 0.212);
+}
+
+.butttonBox {
+  display: inline;
+  width: 100% !important;
+}
+.hero__btn-left {
+  margin: 0;
+  align-self: stretch;
+}

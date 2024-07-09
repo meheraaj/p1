@@ -2,6 +2,7 @@ import React from "react";
 
 import "./NavBar.css";
 import logoPng from "../../assets/image-removebg-preview.png";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -14,29 +15,29 @@ const NavBar = () => {
         <div className="n__middle">
           <ul className="flexBox">
             <li className="n__list">
-              <a href="/" className="n__navbtn">
+              <Link to="/" className="n__navbtn">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="n__list">
-              <a href="/" className="n__navbtn">
+              <Link to="/about" className="n__navbtn">
                 About
-              </a>
+              </Link>
             </li>
             <li className="n__list">
-              <a href="/" className="n__navbtn">
-                Services
-              </a>
+              <Link to="/price" className="n__navbtn">
+                Pricing
+              </Link>
             </li>
             <li className="n__list">
-              <a href="/" className="n__navbtn">
+              <Link to="/portfolio" className="n__navbtn">
                 Portfolio
-              </a>
+              </Link>
             </li>
             <li className="n__list">
-              <a href="/" className="n__navbtn">
+              <Link to="/blog" className="n__navbtn">
                 Blog
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

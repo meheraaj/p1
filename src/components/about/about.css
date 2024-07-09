@@ -56,7 +56,12 @@
   list-style: none;
   display: flex;
   flex-direction: column;
+  justify-content: left;
   width: 7rem;
+}
+
+.exp__list li:hover .left {
+  color: #cf242f;
 }
 
 .exp__list li .left {
@@ -69,4 +74,24 @@
 }
 button {
   font-size: 1.2rem !important;
+}
+
+@media only screen and (max-width: 700px) {
+  .about {
+    flex-direction: column !important;
+    margin-bottom: 20rem;
+    padding: 0;
+  }
+  .about__left {
+    display: flex;
+    flex-direction: column;
+  }
+  .about__left img {
+    height: auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .about__right {
+    font-size: 0.8rem;
+  }
 }

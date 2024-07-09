@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap");
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: #161513;
+}
 .n__header {
   padding: 0 20rem;
   justify-content: space-between;
@@ -11,8 +19,17 @@
   align-items: center;
 }
 
+.n__logo-text {
+  font-family: "Handjet", sans-serif;
+  font-size: 1.8rem;
+}
 .n__logo {
   width: 3rem;
+}
+
+.n__left:hover {
+  color: #ff7c00;
+  cursor: pointer;
 }
 .n__middle ul {
   gap: 10px;
@@ -35,4 +52,31 @@
   border-bottom: 2px solid;
   border-color: #ff7c00;
   color: #ffffff;
+}
+
+.n__button {
+  padding: 5px 12px;
+  font-size: 0.8rem;
+  font-weight: 300;
+  background-color: #16151341;
+  border: 2px solid rgb(9, 22, 194);
+  color: white;
+}
+.n__button:hover {
+  font-size: 0.8rem;
+  border: 2px solid rgba(9, 21, 194, 0);
+}
+
+@media only screen and (max-width: 700px) {
+  .n__header {
+    justify-content: space-evenly !important;
+    padding: 0;
+  }
+  .n__middle ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .n__left {
+    justify-self: flex-start;
+  }
 }
