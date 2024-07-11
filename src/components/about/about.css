@@ -85,6 +85,7 @@ button {
   .about__left {
     display: flex;
     flex-direction: column;
+    font-size: 0.8rem;
   }
   .about__left img {
     height: auto;
@@ -92,6 +93,18 @@ button {
     align-items: flex-start;
   }
   .about__right {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
+  }
+
+  .about__text {
+    font-size: 0.7rem;
+  }
+  .leftText,
+  .rightText {
+    font-size: 2rem !important;
+  }
+
+  .exp__list li .left {
+    font-size: 1.6rem;
   }
 }

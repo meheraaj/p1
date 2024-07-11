@@ -62,6 +62,7 @@
 
 @media only screen and (max-width: 700px) {
   .herosection {
+    height: auto;
     display: flex;
     flex-direction: column-reverse !important;
     justify-content: center;
@@ -74,7 +75,10 @@
   }
 
   .hero__right img {
-    height: auto;
+    height: 50vh;
     width: auto;
+  }
+  .hero__left {
+    margin-bottom: 10rem;
   }
 }

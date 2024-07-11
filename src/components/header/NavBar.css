@@ -74,9 +74,13 @@
   }
   .n__middle ul {
     display: flex;
-    flex-direction: column;
   }
   .n__left {
     justify-self: flex-start;
+  }
+
+  ul li:nth-child(4),
+  ul li:nth-child(5) {
+    display: none;
   }
 }

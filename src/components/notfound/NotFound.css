@@ -29,3 +29,16 @@
 .textBottom {
   color: #ff8a56;
 }
+
+@media only screen and (max-width: 700px) {
+  @keyframes fontChange {
+    from {
+      font-family: "Plus Jakarta Sans", sans-serif;
+      font-size: 3rem;
+    }
+    to {
+      font-family: "Handjet", sans-serif;
+      font-size: 5rem;
+    }
+  }
+}
