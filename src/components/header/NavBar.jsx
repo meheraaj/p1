@@ -10,7 +10,7 @@ const NavBar = () => {
       <header className="n__header flexBox">
         <div className="n__left">
           <img src={logoPng} alt="JS" className="n__logo" />
-          <span className="n__logo-text">MRaj</span>
+          <span className="n__logo-text">JSmith</span>
         </div>
         <div className="n__middle">
           <ul className="flexBox">
